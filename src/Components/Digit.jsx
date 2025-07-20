@@ -1,12 +1,10 @@
-function Digit(digit){
+function Digit({digit}){
     return(
-            <div className="bg-[#505252] w-[16.66%] h-full text-white">
-      <div className="h-full w-full border-2 border-black flex items-center justify-center overflow-hidden">
-        <span className="text-[11vw] sm:text-[10vw] md:text-[8vw] lg:text-[6vw] leading-none">
-          {digit}
-        </span>
-      </div>
-    </div>
+              <div className="bg-[#404040] w-[15.55%] h-full rounded-4xl outline-none border-none text-white shadow-xl shadow-[#555555] mx-5">
+                <div className="h-full w-full flex items-center justify-center overflow-hidden">
+                  <span className="text-[13vw] font-bold leading-none">{digit}</span>
+                </div>
+              </div>
     );
 };
 
